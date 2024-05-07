@@ -2,6 +2,7 @@
 
 import sys
 
+
 def factorial(n):
     """
     Function Description:
@@ -17,6 +18,7 @@ def factorial(n):
         return 1
     else:
         return n * factorial(n-1)
+
 
 # Command line argument parsing and function call
 f = factorial(int(sys.argv[1]))

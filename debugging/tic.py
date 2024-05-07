@@ -5,6 +5,7 @@ def print_board(board):
         print(" | ".join(row))
         print("-" * 5)
 
+
 def check_winner(board):
     # Check horizontal and vertical lines
     for i in range(3):
@@ -56,5 +57,5 @@ def tic_tac_toe():
     winner = "X" if player == "O" else "O"
     print("Player " + winner + " wins!")
 
-tic_tac_toe()
 
+tic_tac_toe()
